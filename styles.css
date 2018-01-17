@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Josefin+Sans');
+
+body {
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:link {
+    color: #3c3b6e;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #3c3b6e;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #3c3b6e;
+}
+
+.background-image {
+    /* background: url(https://cdn.rawgit.com/alexmwalker/6acbe9040d9fe6e5e9fd758a25e1b2a5/raw/9c8131eb2ccc1e3839a5a5114cb16b5dc74daf04/dojo.svg) no-repeat; */
+    background: url(http://steamboattimes.com/images/artwork/independence_startofthesantafetrail1842_johnstobart1250x719.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-filter: blur(2px) opacity(.7);
+    -moz-filter: blur(2px) opacity(.7);
+    -o-filter: blur(2px) opacity(.7);
+    -ms-filter: blur(2px) opacity(.7);
+    filter: blur(2px) opacity(.7);
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+/*
+.dojo {
+    width: 100%;
+    height: 1000px;
+    padding-top: 10px;
+}
+*/
+
+.quiz-body {
+    background: rgba(255, 255, 255, 1);
+    padding: 10px 20px 50px 20px;
+    -webkit-box-shadow: 4px 4px 11px 3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 4px 4px 11px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 11px 3px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    position: fixed;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    margin-top: -325px;
+    margin-left: -225px;
+}
+
+h1 {
+    color: #3C3B6E;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 42px;
+    margin: 0;
+}
+
+button {
+    color: #ffffff;
+    background-color: #3C3B6E;
+    border-radius: 4px;
+    margin: 0.2em 0;
+    display: block;
+    width: 100%;
+    font-size: 24px;
+}
+
+#question {
+    font-size: 24px;
+}
+
+#result {
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+
+#resultMap {
+    color: #ffffff;
+    margin: 0.2em 0;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+#questionInfo {
+    margin-left: 10px;
+}
+
+.detail-links {
+    font-size: 16px;
+}
+
+.correct {
+    background-color: #0c0;
+}
+
+.wrong {
+    color: #ffffff;
+    background-color: #c00;
+}
+
+.numberPicker {
+    text-align: center;
+}
+
+#numberPickerInput {
+    width: 60px;
+    height: 30px;
+    margin: 5px auto;
+    background-color: #3C3B6E;
+    color: #fff;
+    border: solid 1px;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.gmapsInfoWindow {
+    text-align: left;
+    font-size: 14px;
+    color: #000;
+}
+
+.firstHeading {
+    font-size: 16px;
+    color: #3c3b6e;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}

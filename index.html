@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta  name="description" content="The 50 States Quiz">
+    <title>50 States Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section class="dojo">
+        <div class="background-image"></div>
+        <div class="quiz-body">
+            <header>
+                <span id='score'>Score: <strong>0</strong></span><span id='questionInfo'></span>
+                <h1>50 States Quiz</h1>
+            </header>
+
+            <div class="numberPicker">
+                <label for="numberPickerInput">Number of questions:</label> <input id="numberPickerInput" type="number" name="numberQuestionsInput" min="1" max="50" step="1" value="3">
+            </div>
+
+            <div id="question"></div>
+
+            <form id="response">
+                <input name="answer" type="text" autocomplete="off">
+                <button type="submit">Submit Answer</button>
+            </form>
+
+            <button id="continue" type="button" style="display: none">Continue</button>
+
+            <div id="result"></div>
+            <div id="resultMap"></div>
+
+            <div id="info"></div>
+
+            <button id="start">Click to Start</button>
+        </div>
+    </section>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChTpj8EiAzFMagLQymf-T-9TIv8ArZd7o"></script>
+    <script src="mainStates.js"></script>
+</body>
+</html>
